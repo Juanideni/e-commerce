@@ -1,5 +1,5 @@
-import Navbar from './Components/Navbar';
-import Footer from './Components/Footer';
+import Bar from './Components/Bar';
+import Foot from './Components/Foot';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import Catalogue from './Components/Catalogue';
 import Home from './Components/Home';
@@ -9,7 +9,7 @@ import './App.css';
 function App() {
   return (
     <Router>
-    <Navbar/>
+    <Bar/>
       <Switch>
         <Route path="/Details">
           <Details/>
@@ -21,7 +21,7 @@ function App() {
         <Home/>
       </Route>
       </Switch> 
-    <Footer/>
+    <Foot/>
     </Router>
   );
 }
