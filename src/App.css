@@ -1,4 +1,4 @@
-
+@import "~react-image-gallery/styles/css/image-gallery.css";
 
 .bar{
   background-color: #373759;
@@ -12,7 +12,6 @@
 }
 
 .link{
-  margin: 0% 0% 0% 10%;
    color: #eee;
    text-decoration: none;
    font-size: large;
@@ -24,10 +23,8 @@
 }
 
 .api-div{
-text-align: center;
- display: flex;
- justify-content: space-evenly;
- margin: 5% 0% 5% 0%;
+  text-align: center;
+  margin: 5% 0% 5% 2%;
 }
 
 .api-li{
@@ -42,4 +39,8 @@ text-align: center;
 }
 .foot{
   background-color: #373759;
+}
+.detail-prod{
+  display: flex;
+  justify-content: space-around;
 }

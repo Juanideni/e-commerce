@@ -1,5 +1,4 @@
-import {Navbar, Container} from "react-bootstrap"
-import {Link} from "react-router-dom"
+import {Navbar, Nav, Container} from "react-bootstrap"
 import "../App.css"
 
 
@@ -20,8 +19,9 @@ function Bar(){
     </Navbar.Brand>
     <Navbar.Toggle aria-controls="basic-navbar-nav" />
     <Navbar.Collapse id="basic-navbar-nav" className="justify-content-end links">
-        <Link className="link" to="/">Home</Link>
-        <Link className="link" to="/Catalogue">Catalogue</Link>
+        <Nav.Link className="link" to="/">Home</Nav.Link>
+        <Nav.Link className="link" to="/Catalogue">Catalogue</Nav.Link>
+  
     </Navbar.Collapse>
   </Container>
 </Navbar>
