@@ -1,6 +1,6 @@
 import Bar from './Components/Bar';
 import Foot from './Components/Foot';
-import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import {useState} from "react"
 import Catalogue from './Components/Catalogue';
 import Home from './Components/Home';
@@ -17,17 +17,13 @@ function App(props) {
   return (
     <Router>
     <Bar/>
-      <Switch>
-        <Route path="/Details">
-          <Details id = {idProd}/>
-        </Route>
-      <Route path="/Catalogue">
-        <Catalogue getId={getId}/>
-      </Route>
-      <Route path="/">
-        <Home getId={getId}/>
-      </Route>
-      </Switch> 
+      <Routes>
+
+      <Route path="/Details" element={<Details id = {idProd}/>}></Route>
+      <Route path="/Catalogue" element={<Catalogue getId={getId}/>}></Route>
+      <Route path="/" element={<Home getId={getId}/>}></Route>
+      
+      </Routes>
     <Foot/>
     </Router>
   );
