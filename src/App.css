@@ -1,4 +1,4 @@
-@import "~react-image-gallery/styles/css/image-gallery.css";
+
 
 .bar{
   background-color: #373759;
@@ -28,20 +28,59 @@
   margin: 5% 0% 5% 2%;
 }
 
-.api-li{
+.api-li, li{
     list-style-type: none;
 }
 .sale-text{
   color: rgb(59, 255, 41);
+  margin: 1% 0% 0% 0%;
+}
+.real-price {
+  color:rgba(3, 9, 3, 0.981);
+  margin: 3% 0% 0% 0%;
 }
 .old-price {
   text-decoration: line-through;
-  color:rgba(3, 9, 3, 0.981)
+  color:rgba(3, 9, 3, 0.981);
+  margin: 3% 0% 0% 0%;
+}
+.offer-text{
+  margin: 1% 0% 2% 0%;
+}
+.button{
+  margin: 5% 0% 5% 0%;
 }
 .foot{
   background-color: #373759;
 }
 .detail-prod{
   display: flex;
-  justify-content: space-around;
+  justify-content: space-evenly;
+  background-color: #e9e7e7;
+  border-radius: 0%;
+  width: 100%;
+  padding: 1%;
+}
+.detail-line{
+  border:2px solid #373759;
+  text-align: center;
+  padding: 2% 0% 0% 0%;
+  margin: 1% 0% 1% 0%;
+
+}
+.details-div{
+  margin: 2% 0% 5% 0%;
+}
+.button-group{
+  margin: 5% 0% 1% 0%;
+  text-align: center;
+}
+.question-div{
+  margin: 5% 0% 5% 5%;
+}
+.h1-div{
+  margin: 2% 0% 2% 0%;
+}
+.form-div{
+  margin: 5%;
 }
