@@ -15,7 +15,7 @@ function Bar(){
           height="75"
           className="d-inline-block align-left logo"
           />
-    <Navbar.Brand href="/Home" className="brand">
+    <Navbar.Brand className="brand">
       e-Market
     </Navbar.Brand>
     <Navbar.Toggle aria-controls="basic-navbar-nav" />
