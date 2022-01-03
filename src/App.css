@@ -1,7 +1,7 @@
 
 
 .bar{
-  background-color: #373759;
+  background-color: #6c3ec7;
   padding: .8% 0% 1% 0%;
   
 }
@@ -52,7 +52,7 @@
   margin: 5% 0% 5% 0%;
 }
 .foot{
-  background-color: #373759;
+  background-color: #6c3ec7;
 }
 .detail-prod{
   display: flex;
@@ -65,7 +65,7 @@
   height: 50%;
 }
 .detail-line{
-  border:2px solid #373759;
+  border:2px solid #6c3ec7;
   text-align: center;
   padding: 2% 0% 0% 0%;
   margin: 1% 0% 1% 0%;
