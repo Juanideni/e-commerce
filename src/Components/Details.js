@@ -75,7 +75,7 @@ function Details(props){
                     <ul>
                     <li key="prod.id" className="api-li">
                         <div className=" row row-cols-sm-1 row-cols-md-2 row-cols-lg-3 row-cols-xl-4 g-4 detail-prod"  >
-                        <img src={prod.images[0]} alt=""></img>
+                        <img src={prod.images[0]} className="detail-img" alt=""></img>
                         <h2 className="detail-line">
                                 {prod.title} <br></br>
                                     {
@@ -97,9 +97,9 @@ function Details(props){
                                             <>
                                             <h3 className="old-price">
                                             {prod.currency} {prod.price}
-                                            </h3> <br></br>
+                                            </h3>
                                             <h3 className="sale-text"> SALE! - {prod.currency} {prod.offer.price}
-                                            </h3><br></br>
+                                            </h3>
                                             <h5 className="offer-text"> This offer expires on {dayjs(prod.offer.expires_at).day()} / {dayjs(prod.offer.expires_at).month()} / {dayjs(prod.offer.expires_at).year()}</h5>
                                             </>
                                     }
@@ -135,7 +135,7 @@ function Details(props){
                                                 Thank you for your purchase
                                             </Modal.Title>
                                             </Modal.Header>
-                                            <Modal.Body>Your producto will arrive in a few days 🚚</Modal.Body>
+                                            <Modal.Body>Your product will arrive in a few days 🚚</Modal.Body>
                                         </Modal>
 
                             </h2>    
@@ -199,8 +199,6 @@ function Details(props){
                     placeholder="Leave a comment here"
                     style={{ height: '100px' }}
                     value={opinion}
-                    minLength={10}
-                    maxLength={50}
                     onChange={handleOpinion}
                     required
                     />

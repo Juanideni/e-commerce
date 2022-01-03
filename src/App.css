@@ -37,7 +37,7 @@
 }
 .real-price {
   color:rgba(3, 9, 3, 0.981);
-  margin: 3% 0% 0% 0%;
+  margin: 1% 0% 0% 0%;
 }
 .old-price {
   text-decoration: line-through;
@@ -45,8 +45,9 @@
   margin: 3% 0% 0% 0%;
 }
 .offer-text{
-  margin: 1% 0% 2% 0%;
+  margin: 3% 0% 1% 0%;
 }
+
 .button{
   margin: 5% 0% 5% 0%;
 }
@@ -57,9 +58,11 @@
   display: flex;
   justify-content: space-evenly;
   background-color: #e9e7e7;
-  border-radius: 0%;
-  width: 100%;
-  padding: 1%;
+  padding: 1% 0% 1% 0%;
+}
+.detail-img{
+  width: 30%;
+  height: 50%;
 }
 .detail-line{
   border:2px solid #373759;
@@ -72,7 +75,7 @@
   margin: 2% 0% 5% 0%;
 }
 .button-group{
-  margin: 5% 0% 1% 0%;
+  margin: 5% 0% 0% 0%;
   text-align: center;
 }
 .question-div{
