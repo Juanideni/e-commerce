@@ -15,12 +15,12 @@ function Bar(){
           height="75"
           className="d-inline-block align-left logo"
           />
-    <Navbar.Brand href="/" className="brand">
+    <Navbar.Brand href="/Home" className="brand">
       e-Market
     </Navbar.Brand>
     <Navbar.Toggle aria-controls="basic-navbar-nav" />
     <Navbar.Collapse id="basic-navbar-nav" className="justify-content-end links">
-        <Link className="link" to="/">Home</Link>
+        <Link className="link" to="/Home">Home</Link>
         <Link className="link" to="/Catalogue">Catalogue</Link>
   
     </Navbar.Collapse>

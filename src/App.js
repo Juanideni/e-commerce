@@ -21,7 +21,7 @@ function App(props) {
 
       <Route path="/Details" element={<Details id = {idProd}/>}></Route>
       <Route path="/Catalogue" element={<Catalogue getId={getId}/>}></Route>
-      <Route path="/" element={<Home getId={getId}/>}></Route>
+      <Route path="/Home" element={<Home getId={getId}/>}></Route>
       
       </Routes>
     <Foot/>
