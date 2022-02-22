@@ -6,7 +6,7 @@ import "../App.css"
 function Bar(){
     return(
       <>
-    <Navbar variant="dark" expand="xl" className="bar">
+    <Navbar variant="dark"  expand="xl" className="bar">
     <Container>
     <img
           alt="Logo"

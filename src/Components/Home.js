@@ -55,7 +55,7 @@ function Home(props){
                     <li key="product.id" className="api-li">
                     <Card style={{ width: '18rem', height: '24rem', padding: '5%', border: '2px solid black' }}>
                         <Card.Img variant="top" src={product.images[0]} />
-                <Card.Body className="body-card">
+                    <Card.Body className="body-card">
                     <Card.Title>
                     <Link to="/Details" onClick={() => props.getId(product.id)}>
                         {product.title}
